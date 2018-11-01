@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-
 <?php include('../header.php'); ?>
-
 
 <div class="row">
 <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1" >
@@ -17,7 +15,7 @@
 <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1" >
 </div>
 <div class="col-md-10 col-xs-10 col-lg-10 col-sm-10" >
-<h1 style="text-align: center;">ATITTO - продукція найвищої якості</h1>
+<h1 style="text-align: center;"> ATITTO - продукція найвищої якості</h1>
 </div>
 <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1" >
 </div>
@@ -80,8 +78,8 @@
 }
 </style>
 <div class="slider">
-					<a class="prev" onclick="Next4(-1);">❮</a> 
-					<a class="next" onclick="Next4(1);">❯</a>
+					<a class="prev" onclick="Next1(-1);">❮</a> 
+					<a class="next" onclick="Next1(1);">❯</a>
 					<img id="current_image" alt="..." src="">
 			</div>
 </div>

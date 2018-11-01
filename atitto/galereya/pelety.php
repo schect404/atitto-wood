@@ -3,7 +3,6 @@
 
 <?php include('../header.php'); ?>
 
-
 <div class="row">
 <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1" >
 </div>
@@ -79,9 +78,10 @@
   cursor: zoom-out;
 }
 </style>
+
 <div class="slider">
-					<a class="prev" onclick="Next4(-1);">❮</a> 
-					<a class="next" onclick="Next4(1);">❯</a>
+					<a class="prev" onclick="Next6(-1);">❮</a> 
+					<a class="next" onclick="Next6(1);">❯</a>
 					<img id="current_image" alt="..." src="">
 			</div>
 </div>
@@ -98,7 +98,6 @@
 <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1" >
 </div>
 </div>
-
 
 <?php include('../footer.php'); ?>
 
